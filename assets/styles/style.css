@@ -12,14 +12,20 @@ header{
 
 .main-container-article{
 	width: 70%;
-    border: 1px solid;
     display: inline-block;
 }
 
 .main-container-sidebar{
 	border: 1px solid;
     display: inline-block;
-    width: 29%;
+}
+
+.main-container-sidebar.left{
+	width: 12%;
+	float: left;
+}
+.main-container-sidebar.right{
+	width: 17%;
 	float: right;
 }
 
@@ -29,4 +35,5 @@ footer{
     color: #fff;
     text-align: center;
     border: 5px solid #000;
+	clear: both;
 }
